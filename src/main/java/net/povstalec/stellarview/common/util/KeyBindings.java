@@ -5,7 +5,6 @@ import org.lwjgl.glfw.GLFW;
 import com.mojang.blaze3d.platform.InputConstants;
 
 import net.minecraft.client.KeyMapping;
-import net.minecraftforge.client.settings.KeyConflictContext;
 import net.povstalec.stellarview.StellarView;
 
 public class KeyBindings
@@ -16,6 +15,6 @@ public class KeyBindings
 	public static final String KEY_OPEN_CONFIG = "key." + MODID + ".open_config_screen";
 	
 	public static final KeyMapping OPEN_CONFIG_KEY = new KeyMapping(KEY_OPEN_CONFIG, 
-			KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, 
+			InputConstants.Type.KEYSYM,
 			GLFW.GLFW_KEY_G, KEY_CATEGORY_OPEN_CONFIG);
 }

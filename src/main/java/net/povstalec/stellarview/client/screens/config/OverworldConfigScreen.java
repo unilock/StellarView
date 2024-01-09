@@ -1,6 +1,6 @@
 package net.povstalec.stellarview.client.screens.config;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;

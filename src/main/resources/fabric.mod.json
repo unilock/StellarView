@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "stellarview",
+	"version": "${version}",
+	"name": "Stellar View",
+	"description": "Enjoy a Stellar View of the Sky.",
+	"authors": [
+		"Woldericz_Junior (Owner)",
+		"unilock (Fabric)"
+	],
+	"contact": {
+		"sources": "https://github.com/Povstalec/StellarView",
+		"issues": "https://github.com/Povstalec/StellarView/issues"
+	},
+	"license": "CC-BY-NC-SA-4.0",
+	"icon": "assets/stellarview/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.povstalec.stellarview.StellarView"
+		]
+	},
+	"mixins": [
+		"stellarview.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20.1",
+		"fabric-api": "*"
+	}
+}

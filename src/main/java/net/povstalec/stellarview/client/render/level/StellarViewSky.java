@@ -1,6 +1,6 @@
 package net.povstalec.stellarview.client.render.level;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 import org.joml.Matrix4f;
 

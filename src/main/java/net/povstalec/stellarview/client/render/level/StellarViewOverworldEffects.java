@@ -26,8 +26,6 @@ import net.povstalec.stellarview.common.config.StellarViewConfig;
 
 public class StellarViewOverworldEffects extends StellarViewSpecialEffects
 {
-	public static final ResourceLocation OVERWORLD_EFFECTS = new ResourceLocation("overworld");
-	
 	public static final ResourceLocation OVERWORLD_SKYBOX = new ResourceLocation(StellarView.MODID, "textures/environment/overworld_skybox/overworld");
 	
 	// Moons
